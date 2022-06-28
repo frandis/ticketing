@@ -5,4 +5,8 @@ const app = express();
 
 app.use(json());
 
-app.listen(3000, () => console.log('Listening on Port 3000'));
+app.get('/api/users/currentUser', (req, res) => {
+  res.send('Hi there!');
+});
+
+app.listen(3000, () => console.log('Listening on Port 3000!!!'));
