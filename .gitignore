@@ -2,3 +2,5 @@ auth/node_modules
 client/node_modules
 client/.next
 client/.swc
+common/node_modules
+common/build
